@@ -34,7 +34,6 @@ function render(self) {
         const scale = 10;
         const size_ratio = 5;
         
-        // MAGIC (DO NOT CHANGE)
         const other_factor_thingy = (Math.PI * Math.sin(part.r2));
         let offset_x = Math.cos(part.r - (other_factor_thingy / size_ratio)) * scale;
         let offset_y = Math.sin(part.r - (other_factor_thingy / size_ratio)) * scale;
